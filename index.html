@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Path Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Career Path Finder</h1>
+        <p>Helping you discover the best career path from an early age!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#explore">Explore Careers</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Career Path Finder</h2>
+            <p>Discover career options tailored for students, from elementary school to high school!</p>
+        </section>
+
+        <section id="explore">
+            <h2>Explore Career Paths</h2>
+            <p>Explore a wide range of career paths with helpful advice for each age group:</p>
+            <ul>
+                <li>Elementary School: Introduction to different fields</li>
+                <li>Middle School: Skills development and interest areas</li>
+                <li>High School: Specific career options and required education</li>
+            </ul>
+        </section>
+
+        <section id="resources">
+            <h2>Resources</h2>
+            <p>Check out these valuable resources for students:</p>
+            <ul>
+                <li><a href="#">Career Exploration Tools</a></li>
+                <li><a href="#">Skill-building Workshops</a></li>
+                <li><a href="#">College and Trade School Information</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us!</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
